@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
 	return (
-		<div className="max-w-screen-lg mx-auto text-center">
-			<p className="text-lg text-sky-400 font-semibold my-7">
+		<div className="max-w-screen-lg mx-auto text-center py-20">
+			<p className="text-lg text-sky-400 font-semibold mb-7">
 				What&apos;s new at Shuffle
 			</p>
 			<h1 className="text-7xl font-bold text-sky-900 my-10">
