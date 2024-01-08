@@ -4,7 +4,7 @@ import React from "react";
 function LogoClouds() {
 	return (
 		<div className="container mx-auto py-20">
-			<h3 className="text-3xl text-slate-400 my-7 text-center">
+			<h3 className="text-3xl text-slate-400 mb-10 text-center">
 				Trusted by brand all over the world
 			</h3>
 			<div>
