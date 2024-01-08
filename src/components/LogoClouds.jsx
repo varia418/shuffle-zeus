@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function LogoClouds() {
@@ -10,32 +11,68 @@ function LogoClouds() {
 				<ul className="flex flex-wrap justify-between">
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
-							<img src="/logos/slack-gray.svg" alt="slack" />
+							<Image
+								src="/logos/slack-gray.svg"
+								width={100}
+								height={45}
+								className="h-8"
+								alt="slack"
+							/>
 						</div>
 					</li>
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
-							<img src="/logos/dropbox-gray.svg" alt="dropbox" />
+							<Image
+								src="/logos/dropbox-gray.svg"
+								width={100}
+								height={45}
+								className="h-8"
+								alt="dropbox"
+							/>
 						</div>
 					</li>
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
-							<img src="/logos/spotify-gray.svg" alt="spotify" />
+							<Image
+								src="/logos/spotify-gray.svg"
+								width={100}
+								height={45}
+								className="h-8"
+								alt="spotify"
+							/>
 						</div>
 					</li>
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
-							<img src="/logos/amazon-gray.svg" alt="amazon" />
+							<Image
+								src="/logos/amazon-gray.svg"
+								width={100}
+								height={45}
+								className="h-8"
+								alt="amazon"
+							/>
 						</div>
 					</li>
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
-							<img src="/logos/netflix-gray.svg" alt="netflix" />
+							<Image
+								src="/logos/netflix-gray.svg"
+								width={100}
+								height={45}
+								className="h-8"
+								alt="netflix"
+							/>
 						</div>
 					</li>
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
-							<img src="/logos/stripe.svg" alt="stripe" />
+							<Image
+								src="/logos/stripe.svg"
+								width={100}
+								height={45}
+								className="h-8"
+								alt="stripe"
+							/>
 						</div>
 					</li>
 				</ul>
