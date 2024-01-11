@@ -12,7 +12,7 @@ function Footer() {
 						height={70}
 						alt="logo"
 					/>
-					<p className="text-slate-400 my-5 pr-32">
+					<p className="text-slate-400 my-5 lg:pr-32">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</p>
 					<div className="flex gap-4 text-slate-400">
