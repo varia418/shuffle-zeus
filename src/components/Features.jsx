@@ -2,7 +2,7 @@ import React from "react";
 
 function Features() {
 	return (
-		<section className="container mx-auto py-20 px-24 flex flex-wrap">
+		<section className="container mx-auto py-20 px-10 sm:px-24 flex flex-wrap">
 			<div className="flex lg:w-1/3 pb-20 gap-4">
 				<div>
 					<span className="block bg-teal-400 rounded-full w-10 h-10 flex items-center justify-center">
@@ -33,7 +33,7 @@ function Features() {
 						</svg>
 					</span>
 				</div>
-				<div className="pr-20">
+				<div className="sm:pr-20">
 					<h2 className="text-2xl font-bold text-blue-950 mb-3">
 						Security in saving
 					</h2>
@@ -81,7 +81,7 @@ function Features() {
 						</svg>
 					</span>
 				</div>
-				<div className="pr-20">
+				<div className="sm:pr-20">
 					<h2 className="text-2xl font-bold text-blue-950 mb-3">
 						No errors
 					</h2>
@@ -129,7 +129,7 @@ function Features() {
 						</svg>
 					</span>
 				</div>
-				<div className="pr-20">
+				<div className="sm:pr-20">
 					<h2 className="text-2xl font-bold text-blue-950 mb-3">
 						Change of access
 					</h2>
@@ -170,7 +170,7 @@ function Features() {
 						</svg>
 					</span>
 				</div>
-				<div className="pr-20">
+				<div className="sm:pr-20">
 					<h2 className="text-2xl font-bold text-blue-950 mb-3">
 						Weekly email updates
 					</h2>
@@ -230,7 +230,7 @@ function Features() {
 						</svg>
 					</span>
 				</div>
-				<div className="pr-20">
+				<div className="sm:pr-20">
 					<h2 className="text-2xl font-bold text-blue-950 mb-3">
 						Frequent authentication
 					</h2>
@@ -301,7 +301,7 @@ function Features() {
 						</svg>
 					</span>
 				</div>
-				<div className="pr-20">
+				<div className="sm:pr-20">
 					<h2 className="text-2xl font-bold text-blue-950 mb-3">
 						List of regular users
 					</h2>
