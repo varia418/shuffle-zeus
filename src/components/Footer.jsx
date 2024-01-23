@@ -3,16 +3,17 @@ import React from "react";
 
 function Footer() {
 	return (
-		<footer className="container mx-auto p-20">
+		<footer className="container mx-auto p-5 sm:p-20">
 			<div className="flex">
 				<div className="basis-2/6">
 					<Image
 						src="https://shuffle.dev/zeus-assets/logo/logo-zeus-red.svg"
+						className="mb-2"
 						width={70}
 						height={70}
 						alt="logo"
 					/>
-					<p className="text-slate-400 my-5 lg:pr-32">
+					<p className="text-slate-400 my-5 lg:pr-32 mt-0 text-sm sm:text-base sm:text-base">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</p>
 					<div className="flex gap-4 text-slate-400">
@@ -60,72 +61,84 @@ function Footer() {
 					</div>
 				</div>
 				<div className="basis-1/6">
-					<h3 className="text-blue-950 font-semibold mb-2 text-lg">
+					<h3 className="text-blue-950 font-semibold mb-2 text-md sm:text-lg pr-2">
 						Company
 					</h3>
 					<ul>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							About Us
 						</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Careers
 						</li>
-						<li className="text-slate-400 text-base py-1">Press</li>
-						<li className="text-slate-400 text-base py-1">Blog</li>
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
+							Press
+						</li>
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
+							Blog
+						</li>
 					</ul>
 				</div>
 				<div className="basis-1/6">
-					<h3 className="text-blue-950 font-semibold mb-2 text-lg">
+					<h3 className="text-blue-950 font-semibold mb-2 text-md sm:text-lg pr-2">
 						Pages
 					</h3>
 					<ul>
-						<li className="text-slate-400 text-base py-1">Login</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
+							Login
+						</li>
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Register
 						</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Add list
 						</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Contact
 						</li>
 					</ul>
 				</div>
 				<div className="basis-1/6">
-					<h3 className="text-blue-950 font-semibold mb-2 text-lg">
+					<h3 className="text-blue-950 font-semibold mb-2 text-md sm:text-lg pr-2">
 						Legal
 					</h3>
 					<ul>
-						<li className="text-slate-400 text-base py-1">Terms</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
+							Terms
+						</li>
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							About Us
 						</li>
-						<li className="text-slate-400 text-base py-1">Team</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
+							Team
+						</li>
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Privacy
 						</li>
 					</ul>
 				</div>
 				<div className="basis-1/6">
-					<h3 className="text-blue-950 font-semibold mb-2 text-lg">
+					<h3 className="text-blue-950 font-semibold mb-2 text-md sm:text-lg pr-2">
 						Resource
 					</h3>
 					<ul>
-						<li className="text-slate-400 text-base py-1">Blog</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
+							Blog
+						</li>
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Service
 						</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Product
 						</li>
-						<li className="text-slate-400 text-base py-1">
+						<li className="text-slate-400 text-sm sm:text-base py-1 pr-2">
 							Pricing
 						</li>
 					</ul>
 				</div>
 			</div>
 			<hr className="my-7" />
-			<p className="text-center text-slate-400 text-sm">
+			<p className="text-center text-slate-400 text-sm sm:text-base">
 				All rights reserved © Zeus Corporation 2021
 			</p>
 		</footer>
