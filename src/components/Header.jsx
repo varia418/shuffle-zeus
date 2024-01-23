@@ -6,7 +6,7 @@ function Header() {
 			<p className="text-lg text-sky-400 font-semibold mb-7">
 				What&apos;s new at Shuffle
 			</p>
-			<h1 className="text-7xl font-bold text-sky-900 my-10">
+			<h1 className="text-6xl sm:text-7xl font-bold text-sky-900 my-10">
 				Take care of your performance everyday.
 			</h1>
 			<p className="text-2xl text-slate-400 my-7">
