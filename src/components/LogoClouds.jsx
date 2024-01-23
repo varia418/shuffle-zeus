@@ -8,7 +8,7 @@ function LogoClouds() {
 				Trusted by brand all over the world
 			</h3>
 			<div>
-				<ul className="flex flex-wrap justify-between">
+				<ul className="flex flex-wrap justify-between gap-y-5">
 					<li className="lg:w-1/6 md:w-1/3 w-full px-3">
 						<div className="bg-gray-100 py-8 w-full rounded-xl flex justify-center items-center">
 							<Image
